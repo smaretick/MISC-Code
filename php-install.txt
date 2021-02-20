@@ -1,0 +1,40 @@
+RUNNING PHP 
+===========
+
+1. open up terminal window & using vi or emacs create a file
+   with some text you want to print out (e.g., "hello world")
+
+	emacs: Start a terminal window. at the prompt enter 'emacs hi.php' 		in the emacs editor enter a line that reads print "hi world" enter 		cntl x-s to save your file then enter cntl-z to exit to the 			terminal window then type php hi.php you should see "hi world" 		displayed in the terminal window. then type fg to return to the 		emacs editor.
+
+	vi: Start a terminal window. at the prompt enter 'vi hi.php' 			in the emacs editor enter a line that reads print "hi world" 
+	type <esc> <shift> :, and at the bottom of the file type ': wq'
+	(you will write & save the file & return to prompt.
+
+    From the command line you typr "php hi.php" & the text in the file
+    will be printed out.
+
+2. XAMPP
+	XAMPP is a cross-platform and open-source web server package
+
+	a. Download XAMPP for Mac OSX 
+	b. Open the downloaded file (the DMG-Image)
+	c. To start XAMPP simply open XAMPP Control 
+	   (by going to /Applications/XAMPP/manager-osx.app in Finder) 
+	   and start Apache and MySQL on the Manage Servers tab.
+	d. You should see the following in the XAMPP GUI:
+		My SQL Database
+		ProFTPD
+		Apache Web Server
+	e. Place your PHP files in a folder you create under the "htdocs"
+		 folder located under the 
+		"Applications/XAMMP/xamppfiles/htdocs/MYFOLDER"
+	f. Open your browser and type “localhost” into the address bar 			(omit the quotations).
+	g. You should see: “localhost – Welcome to XAMPP” 
+	h. You will be redirected to localhost/dashboard. 
+		Replace the dashboard part with the name of the folder where 
+		your PHP file is located. In our case it looks like this: 
+		localhost/MYFOLDER
+	i. Your php file should open in the browser
+
+
+	
